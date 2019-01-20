@@ -1,0 +1,13 @@
+<!DOCTYPE>
+<html>
+    <head></head>
+    <body>
+        <a type="button" href="/create">생성</a>
+        <hr />
+        {% for b in board %}
+            <h3>{{ b.title }}</h3>
+            <h3>{{ b.content }}</h3>
+            <hr />
+        {% endfor %}
+    </body>
+</html>
